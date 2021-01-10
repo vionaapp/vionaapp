@@ -1,0 +1,26 @@
+.footer {
+	background: rgb(63, 63, 63);
+	padding: 1.4em 4em 3.4em 4em;
+	color: white;
+	&logo {
+		height: 100%;
+		width: 210px;
+	}
+}
+
+.text {
+	text-align: right;
+	color: white;
+	font-size: .7em;
+	direction: rtl;
+}
+
+.img {
+	width: 25px;
+	margin: 1em .8em;
+	opacity: .8;
+	transition: all .3s;
+	&:hover {
+		opacity: 1;
+	}
+}

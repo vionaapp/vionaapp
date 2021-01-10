@@ -1,0 +1,42 @@
+.alert {
+	width: 100%;
+	direction: rtl;
+	padding: .7em 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all .3s;
+	color: rgb(100, 100, 100);
+	background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.text {
+	font-size: .8em;
+	text-align: right;
+	font-weight: bold;
+	margin: 0;
+	letter-spacing: .9px;
+	margin-right: 1em;
+	@media (max-width: 600px) {
+		font-size: .7em;
+		margin-left: 3em;
+	}
+}
+
+.btn {
+	background: none;
+	border: none;
+	outline: none;
+	margin-left: 1.3em;
+	&:focus {
+		outline: none;
+	}
+}
+
+.firework {
+	margin-right: .6em;
+	width: 24px;
+	@media (max-width: 600px) {
+		width: 17px;
+	}
+}

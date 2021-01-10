@@ -1,0 +1,32 @@
+.back {
+	background: url('../../img/graphic.jpg') no-repeat;
+	background-size: cover;
+	height: 360px;
+	@media (max-width: 600px) {
+		background-position-x: -160px;
+	}
+}
+
+.text_cont {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 240px;
+}
+
+.text {
+	color: white;
+	font-weight: bold;
+	direction: rtl;
+	text-shadow: 0 0 10px black;
+}
+
+.each {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

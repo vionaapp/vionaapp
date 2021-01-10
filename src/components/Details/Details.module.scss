@@ -1,0 +1,16 @@
+.cont {
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+	margin-bottom: 6em;
+}
+
+.details {
+	width: 80%;
+	background: white;
+	box-shadow: 0 0 10px rgb(213, 213, 213);
+	border-radius: 5px;
+	@media (max-width: 600px) {
+		width: 90%;
+	}
+}

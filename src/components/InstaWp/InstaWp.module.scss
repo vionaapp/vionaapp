@@ -1,0 +1,21 @@
+.cont {
+	z-index: 9999;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	border-radius: 10px;
+}
+
+.insta {
+	padding: 10px 0;
+	background: #e1306c;
+	width: 50%;
+}
+
+.wp {
+	padding: 10px 0;
+	background: rgb(13, 206, 77);
+	width: 50%;
+}

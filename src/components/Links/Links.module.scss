@@ -1,0 +1,54 @@
+.links {
+	display: none;
+	@media (min-width: 600px) {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.link {
+	margin: 0 .8em;
+	color: grey;
+	font-size: .8em;
+	transition: all 0.25s linear;
+	position: relative;
+	text-decoration: none;
+	letter-spacing: .5px;
+	&:before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: rgb(73, 157, 157);
+		position: absolute;
+		left: 0;
+		bottom: -2px;
+		transform-origin: left;
+		transform: scale(0);
+		transition: 0.25s linear;
+	}
+	&:hover {
+		text-decoration: none;
+		color: black;
+	}
+	&:hover:before {
+		transform: scale(1);
+	}
+
+	&active {
+		color: black;
+	}
+	&active:before {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: rgb(73, 157, 157);
+		position: absolute;
+		left: 0;
+		bottom: -2px;
+		transform-origin: left;
+		transform: scale(1);
+		transition: 0.25s linear;
+	}
+}

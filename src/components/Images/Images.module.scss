@@ -1,0 +1,22 @@
+.images {
+	margin: 0 2em;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 6em;
+	@media (max-width: 600px) {
+		flex-direction: column;
+	}
+}
+
+.img {
+	opacity: .5;
+	transition: all .3s;
+	width: 120px;
+	&:hover {
+		opacity: 1;
+	}
+	@media (max-width: 600px) {
+		opacity: 1;
+	}
+}

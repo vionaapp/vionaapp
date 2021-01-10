@@ -1,0 +1,11 @@
+.wp {
+	text-decoration: none;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&:hover {
+		text-decoration: none;
+		color: white;
+	}
+}
